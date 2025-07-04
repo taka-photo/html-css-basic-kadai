@@ -1,5 +1,5 @@
 body, h1, p {
-    margin: 0;
+    padding: 0;
 }
 
 p,a {
@@ -7,7 +7,7 @@ p,a {
 }
 
 header {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     background-color: rgb(244, 79, 79);
     text-align: center;
 }
@@ -48,7 +48,7 @@ h2::before {
   color: rgb(97, 206, 249);
 }
 
-contents > img {
+.contents img {
     margin: 0 10px;
     width: 70%;
 }
