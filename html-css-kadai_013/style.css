@@ -16,6 +16,7 @@ p {
 PC用のスタイル 
 =================*/
 @media screen and (min-width: 768px) {
+
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -59,11 +60,11 @@ PC用のスタイル
     color: #0d0d0d;
   }
 
-  #menu-sp{
+  #menu-sp {
     display: none;
   }
 
-  #nav-sp{
+  #nav-sp {
     display: none;
   }
 }
@@ -74,25 +75,25 @@ PC用のスタイル
   スマートフォン用のスタイル
  =====================*/
 
- @media screen and (max-width: 767px) {
-  
+@media screen and (max-width: 767px) {
 
 
-  body{
+
+  body {
     min-width: 375px;
     margin: 0;
   }
 
-  #nav-pc{
+  #nav-pc {
     display: none;
   }
 
-  #menu-sp{
+  #menu-sp {
     float: right;
     padding: 0;
   }
 
-  #nav-sp{
+  #nav-sp {
     background-color: #ce933e;
     position: absolute;
     left: 0;
@@ -103,42 +104,42 @@ PC用のスタイル
     z-index: 100;
   }
 
-  #nav-sp ul{
+  #nav-sp ul {
     padding-left: 0;
   }
 
-  #nav-sp li{
+  #nav-sp li {
     list-style: none;
   }
 
-  #close{
+  #close {
     position: absolute;
     top: 20px;
     right: 20px;
   }
 
-  #logo-sp{
+  #logo-sp {
     margin: 80px 0 30px 20px;
   }
 
-  #logo-sp a:link{
-    color: #fff;
+  #logo-sp a:link {
+    color: #ffffff;
   }
 
-  #logo-sp a:visited{
-    color: #fff;
+  #logo-sp a:visited {
+    color: #ffffff;
   }
 
-  #logo-sp a:hover{
-    color: #fff;
+  #logo-sp a:hover {
+    color: #ffffff;
     text-decoration: underline;
   }
 
-  #nav-sp a:active{
-    color: #fff;
+  #nav-sp a:active {
+    color: #ffffff;
   }
 
-  #nav-sp .mene{
+  #nav-sp .menu {
     text-decoration: none;
     display: block;
     margin: 0 20px;
